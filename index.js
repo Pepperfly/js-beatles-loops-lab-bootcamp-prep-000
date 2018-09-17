@@ -2,7 +2,7 @@
 function theBeatlesPlay(musicians, instruments) {
   var playArr = [];
   for (let i = 0; i < musicians.length - 1; i++) {
-    playArr.pop(musicians[i] + ' plays ' + instruments[i])
+    playArr[0] = musicians[i] + ' plays ' + instruments[i]
   }
   return playArr;
 }
